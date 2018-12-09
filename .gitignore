@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Resulting binary
+mtkdownload
+
+# Nano .swp files
+*.swp
