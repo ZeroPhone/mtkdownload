@@ -461,11 +461,11 @@ int OpenDev(char *Dev)
 int comm_init(char *dev)
 {
     int fd;
-    int i;
-    int len;
-    int n = 0;      
-    unsigned char read_buf[26]={'\0'};
-    unsigned char write_buf[26]={'\0'};
+    //int i; //Seems unused (CRImier)
+    //int len; //Seems unused (CRImier)
+    //int n = 0; //Seems unused (CRImier)
+    //unsigned char read_buf[26]={'\0'}; //Seems unused (CRImier)
+    //unsigned char write_buf[26]={'\0'};  //Seems unused (CRImier)
     struct termios opt; 
     
     fd = open(dev, O_RDWR | O_NOCTTY | O_NDELAY);    //默认为阻塞读方式
