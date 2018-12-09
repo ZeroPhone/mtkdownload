@@ -56,3 +56,7 @@ mtkdownload
 
 # Nano .swp files
 *.swp
+
+debian/mtkdownload*
+debian/files
+debian/debhelper-build-stamp

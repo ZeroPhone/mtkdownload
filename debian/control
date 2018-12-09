@@ -1,0 +1,15 @@
+Source: mtkdownload
+Section: misc
+Priority: optional
+Maintainer: Arsenijs Picugins <crimier@yandex.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/ZeroPhone/mtkdownload
+Vcs-Git: git@github.com:ZeroPhone/mtkdownload.git
+Vcs-Browser: https://github.com/ZeroPhone/mtkdownload
+
+Package: mtkdownload
+Architecture: all
+Depends: ${misc:Depends}
+Description: The mtkdownload tool, based on the Simcom source. Can be used to
+ flash firmware into SIM800 series modems.
