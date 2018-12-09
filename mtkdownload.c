@@ -267,7 +267,7 @@ int main(int argc, char *argv[])
 		   return 1;
 		}	
         	remain-=towrite;
-	        printf("\rRom %d%\t %d bytes sended   ", (int)((iRomlen-remain)*100/iRomlen), (int)(iRomlen-remain));
+	        printf("\rRom %d%\t %d bytes sent   ", (int)((iRomlen-remain)*100/iRomlen), (int)(iRomlen-remain));
         	fflush(stdout);
     }
     if(0==remain)
