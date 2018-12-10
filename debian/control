@@ -9,7 +9,7 @@ Vcs-Git: git@github.com:ZeroPhone/mtkdownload.git
 Vcs-Browser: https://github.com/ZeroPhone/mtkdownload
 
 Package: mtkdownload
-Architecture: all
+Architecture: armhf
 Depends: ${misc:Depends}
 Description: The mtkdownload tool, based on the Simcom source. Can be used to
  flash firmware into SIM800 series modems.

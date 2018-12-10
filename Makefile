@@ -1,7 +1,7 @@
 TARGET = mtkdownload
 LIBS = -lm
 CC = gcc
-CFLAGS = -g -Wall
+CFLAGS = -s -g -Wall
 
 .PHONY: default all clean
 
